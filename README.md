@@ -160,7 +160,7 @@ Business Value:
   * Helps teams respond proactively
 
 ## Dashboard (Airtable Interface)
-Executive Dashboard 
+### Executive Dashboard 
 * Total Users is 1000
    The platform currently has 1000 registered users.
 
@@ -221,3 +221,110 @@ Growth is steady without extreme spikes or collapses.
   *  LinkedIn Ads and Referral show strong movement into Starter & Pro
   * Enterprise remains small everywhere
 Some channels are better at producing paying users, not just traffic.
+
+### Product / Feature Dashboard
+* Total Feature Events has 13,000 event_id
+This is the total number of tracked product interactions across all users.
+
+Users have performed 13k actions inside the product.
+
+* Users by Feature Name
+  * Automation Rule (~2,083) is the most used feature.
+  * Dashboard View (~1,947) is the least used.
+  * All other features sit very close to ~2k usage.
+Feature usage is evenly distributed. No single feature is being ignored or overwhelmingly dominating.
+
+* Users by Event Type
+  *Submit ≈ 4,018
+  Click ≈ 4,015
+  View ≈ 3,967
+Users are not only viewing — they are actively clicking and completing actions at almost the same volume.
+
+* Usage by Device Type
+  * Desktop ~34%
+  * Mobile ~34%
+  * Tablet ~32%
+Traffic is balanced across devices. The product is not dependent on one platform.
+
+* Event Type × Device (Pivot Table)
+Views
+  * Desktop 1,367 | Tablet 1,311 | Mobile 1,289
+Clicks
+  * Desktop 1,380 | Tablet 1,272 | Mobile 1,363
+Submits
+  * Desktop 1,348 | Tablet 1,280 | Mobile 1,390
+Engagement behaviour is consistent regardless of device.
+Mobile even leads slightly in completed submissions.
+
+### Subscription Dashboard
+ * Total Subscribers – 791
+There are 791 customers currently holding subscriptions.
+
+* Total Revenue – 34,716
+The subscriptions generate 34,716 in recurring revenue.
+
+* MRR Growth (Monthly Trend)
+Revenue increased early in 2024, peaked around mid-year (~57), then fluctuated. There is a sharp dip at the most recent point (value ~4), which likely indicates incomplete data for the month, or a recent drop in renewals.
+
+* Subscriptions by Plan Type
+  * Free has the highest number of users (~300).
+  * Starter follows (~250).
+  * Pro is smaller (~170).
+  * Enterprise is the smallest (~80).
+Most customers are concentrated in the lower tiers.
+
+* Subscription by Monthly Price
+  * Free (0) → largest share (~38%)
+  * $25 → ~31%
+  * $79 → ~21%
+  * $199 → ~10%
+The majority of users are still on low or no-revenue plans.
+
+* Subscription End by Month
+Cancellations fluctuate between 1 and 8 per month.
+January shows the highest spike (~8).
+Recent months appear lower.
+
+* Subscription by Status
+  * Active: 710
+  * Cancelled: 81
+Most subscriptions remain active, with a smaller churn portion.
+
+* Revenue by Plan Type
+  * Enterprise: ~15,323 → highest revenue
+  * Pro: ~13,193
+  * Starter: ~6,200
+  * Free: 0
+Even though Enterprise has fewer users, it contributes the most money.
+
+* Status × Plan Type (Pivot)
+  * Active
+Pro 138 | Free 299 | Starter 209 | Enterprise 64
+  * Cancelled
+Pro 29 | Free 0 | Starter 39 | Enterprise 13
+Starter and Pro experience more cancellations in absolute numbers, while Free naturally has none.
+
+### Support Dashboard
+* Total Tickets
+The team handled 800 support tickets.
+
+* Users by Ticket Category
+Billing generates the highest number of tickets, while Bug reports are the lowest.
+
+* Users by CSAT
+Customer satisfaction is relatively balanced across scores, with no extreme skew.
+
+* Users by Status
+Most tickets are Resolved, while a smaller number remain Open.
+
+* Users by Priority
+Tickets are almost evenly split between Low, Medium, and High.
+
+* Users by SLA
+A large portion of tickets breached SLA, exceeding those resolved within target.
+
+* Ticket Volume Trend
+Ticket demand fluctuates monthly, with a strong spike around early 2025.
+
+* Pivot – Status vs Priority
+Resolved tickets dominate across all priority levels.
