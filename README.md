@@ -59,3 +59,44 @@ Without integration:
 * Product teams cannot measure adoption
 
 This project solves that by building a single source of truth centered around the user.
+
+## Data Modelling
+The base follows a hub-and-spoke model.
+Core principle:
+* Everything rolls up to the user. All the tables (feature event, ticket and subscription) were linked to users table.
+
+- This enables answering critical cross-functional questions such as:
+
+  * Do high-usage customers churn less?
+  * Do certain plans generate more tickets?
+  * Does poor CSAT impact expansion?
+
+* Modeling techniques used
+  - Linked records
+  - Rollups (e.g., last activity date)
+  - Counts (e.g., total events, ticket volume)
+  - Lookups (plan, pricing)
+  - Derived flags (activity, SLA, eligibility)
+  
+This transforms event data into user-level intelligence.
+
+## Key Fields & Metrics
+The project converts raw records into actionable SaaS KPIs.
+
+- Product Metrics
+  * Total feature events per user
+  * Last activity date
+  * Active / inactive behavior
+  * Engagement intensity
+ 
+- Revenue Metrics
+  * Monthly Recurring Revenue (MRR)
+  * Paying vs non-paying users
+  * Plan distribution
+  * Revenue concentration
+ 
+- Support Metrics
+  * Average resolution time
+  * CSAT score
+  * SLA compliance
+  * Ticket load per account
