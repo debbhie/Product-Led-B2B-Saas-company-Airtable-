@@ -370,3 +370,60 @@ Ticket demand fluctuates monthly, with a strong spike around early 2025.
 
 * Pivot – Status vs Priority
 Resolved tickets dominate across all priority levels.
+
+
+## Key Insights
+- Users & Acquisition:
+   * LinkedIn Ads and Google Ads drive the highest user acquisition.
+   * Organic and referral channels contribute, but at lower volumes.
+   * Adoption is strongest among mid-sized and larger companies.
+   * The Free plan dominates the user base, while Enterprise remains small.
+
+- Onboarding:
+  * Roughly 30% of users experience onboarding delays.
+  * This indicates friction in activation and potential early drop-off risk.
+
+- Product Usage:
+   * 13,000 total feature events were recorded, showing healthy engagement.
+   * Usage is fairly evenly distributed across features, with Automation Rules slightly ahead.
+   * Clicks and submits slightly exceed views → users are interacting, not just browsing.
+   * Engagement is balanced across desktop, mobile, and tablet.
+ 
+- Revenue & Subscriptions:
+  * There are 791 subscribers generating 34,716 in revenue.
+  * Most subscriptions sit in Free and Starter.
+  * Enterprise and Pro, though smaller in count, generate the majority of revenue.
+  * Churn exists mainly in Starter and Pro plans.
+  * Recent data shows a drop in MRR in the latest period.
+ 
+  - Support
+  * 800 tickets have been created.
+  * Billing issues generate the highest support demand.
+  * Most tickets are resolved, which is positive.
+  * However, SLA breaches are significantly higher than SLA meets.
+  * Ticket volume shows periodic spikes, suggesting operational pressure at certain times.
+ 
+
+## Recommendations
+- Acquisition & Growth:
+  * Double down on LinkedIn Ads and Google Ads, since they produce the strongest results.
+  * Investigate how to improve conversion from Free → Paid, especially into Starter and Pro.
+ 
+- Onboarding Improvement:
+  * With ~30% delays, introduce guided setup, onboarding checklists, and automated nudges after inactivity.
+  * Monitor completion time as a core activation metric.
+ 
+- Product Strategy:
+Since feature usage is evenly spread, no feature is failing.
+  * Consider promoting higher-value features that can drive paid upgrades.
+  * Look for behaviors that correlate with conversion.
+ 
+- Revenue Expansion
+  * Protect Pro and Enterprise customers, they bring most of the money.
+  * Analyze why Starter & Pro experience more churn.
+  * Introduce upsell prompts based on usage thresholds.
+ 
+- Support & Operations
+  * Billing needs root-cause fixes or better documentation.
+  * SLA breaches are high → may require more staffing, better routing, or automation.
+  * Predict spikes and plan capacity ahead.
