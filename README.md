@@ -100,3 +100,124 @@ The project converts raw records into actionable SaaS KPIs.
   * CSAT score
   * SLA compliance
   * Ticket load per account
+ 
+- Growth / Lifecycle Signals
+  * Churn risk (inactivity proxy)
+  * Upsell eligibility
+  * Adoption indicators
+
+ ## Automation Implemented
+Beyond reporting, this system activates data into real-time operational workflows. Instead of waiting for manual monitoring, key risk and opportunity signals automatically trigger notifications and actions.
+The automations transform Airtable from a database into a SaaS operating engine.
+
+* Subscription Cancellation → Win-Back Workflow
+  Trigger
+When a subscription record changes to Cancelled.
+
+Action:
+Automatically sends a notification / win-back communication.
+
+Business Value:
+  * Immediate reaction to churn
+  * Enables customer success outreach
+  * Prevents silent revenue leakage
+
+* Low CSAT Escalation
+
+Trigger
+When CSAT ≤ 3.
+
+Action:
+Sends alert to the responsible team.
+
+Business Value:
+  * Fast intervention
+  * Protects renewals
+  * Escalates unhappy customers before churn
+
+* Onboarding Delay Reminder
+Trigger
+User has not completed onboarding within the defined timeframe.
+
+Action:
+Automated reminder email encouraging completion.
+
+Business Value:
+  * Improves activation
+  * Reduces early churn
+  * Drives time-to-value
+
+Abnormal Usage / Support Spike Alert
+Trigger
+Unusual increase in account activity or support volume.
+
+Action:
+Internal notification.
+
+Business Value:
+  * Identifies upsell signals
+  * Detects product friction
+  * Helps teams respond proactively
+
+## Dashboard (Airtable Interface)
+Executive Dashboard 
+* Total Users is 1000
+   The platform currently has 1000 registered users.
+
+* Users by Signup Source
+  * LinkedIn Ads brings the highest share of users
+  * Google Ads and Referral are close behind
+  * Organic is slightly lower than paid channels
+
+This means that Paid acquisition is driving a large portion of growth, with LinkedIn performing strongest among them.
+
+* Onboarding Delay
+About ~30% of users are delayed, while ~70% completed onboarding.
+Most users successfully activate, but nearly one-third failing to complete onboarding is a meaningful risk area.
+
+* Users by Company Size
+Distribution is relatively balanced, with the largest share coming from mid-sized to larger companies.
+The product is not limited to tiny teams; it is attracting structured organizations as well.
+
+* Users by Plan Type
+  * Free has the largest population
+  * Starter follows
+  * Pro is smaller
+  * Enterprise is the smallest segment
+The majority of the user base is still at the entry levels, meaning monetization and upgrade opportunities exist.
+
+* Users by Industry
+  * SaaS
+  * HealthTech
+  * E-commerce
+  * FinTech
+  * EdTech
+SaaS companies appear to lead adoption, but usage is diversified across multiple verticals.
+
+* Users by Country
+Users are spread across:
+USA, Germany, UK, India, Canada, Nigeria.
+No single country dominates heavily.
+
+Customer distribution is international rather than concentrated in one market.
+
+* Users by Feature Events
+  * Many users cluster around mid-range usage
+  * Fewer users at the very high end
+  * Very small numbers at extremely low activity
+The product has a healthy base of moderately active users, with a smaller but important group of power users.
+
+* Average Revenue by Users
+  * A portion of users generate very little or zero revenue
+  * Smaller groups contribute higher amounts
+Revenue is unevenly distributed — a minority of users likely contribute a large share of total income.
+
+* Users Growth by Date
+The line fluctuates between peaks and dips but stays within a consistent range.
+Growth is steady without extreme spikes or collapses.
+
+* Signup Source → Plan Type (Pivot)
+  * Free dominates across most channels
+  *  LinkedIn Ads and Referral show strong movement into Starter & Pro
+  * Enterprise remains small everywhere
+Some channels are better at producing paying users, not just traffic.
